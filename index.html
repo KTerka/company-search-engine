@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Wyszukiwarka danych działalności gospodarczej</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="container jumbotron">
+			
+			<div class="row">	
+				<div class="col-sm-4">
+				</div>
+				<div class="text-center col-sm-4">
+						<h2>Wyszukiwarka danych</h2> 
+						<h3>działalności gospodarczej</h3>
+				
+				<label>NIM/KRS/REGON</label>
+				<input id="company_nr" type="text" class="form-control" ><br>
+				<div class="text-right">
+					<button id="search" class="btn btn-info">Wyszukaj</button>
+				</div>
+				</div>
+			</div>	
+			
+			<div class="row">
+				<div class="col-sm-4">
+				</div>
+				<form class="col-sm-4">
+					<div class="form-group text-left">
+						<label >Nazwa</label>
+						<input id="name_company" type="text" class="form-control">
+					</div>
+					<div class="form-group text-left">
+						<label >Ulica</label>
+						<input id="street" type="text" class="form-control">
+						<label>Numer</label>
+						<input id="nr" type="text" class="form-control">
+					</div>
+					<div class="form-group text-left">
+						<label >Kod pocztowy</label>
+						<input id="post_code" type="text" class="form-control">
+						<label>Miasto</label>
+						<input id="city" type="text" class="form-control">
+					</div>
+				</form>
+			
+			</div>
+		</div>
+	<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
